@@ -19,12 +19,14 @@
 
 ## 数据说明
 数据是来自[Caltech-UCSD Birds-200-2011 (CUB-200-2011)](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)，包含200种鸟类的图片，可以用于进行鸟的识别、部位检测和图像分割。[下载](http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz)
+
 <img src="image/CUBshot.png" width="600" height="280" />
 
 ## 参考来源
 -  https://github.com/DeepLearningSandbox/DeepLearningSandbox/blob/master/transfer_learning
 
 ## 代码说明
+- 所有代码文件需放在包含images和attributes文件夹这一层目录下面。
 - dataprocess.py: 数据预处理，拆分训练集和测试集。
 - train.py: 数据增强，模型训练。
         
